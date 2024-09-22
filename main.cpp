@@ -5,11 +5,12 @@
 
 int main() {
 	try {
-		if (true)
+		bool c = false;
+		if (c)
 			cout << "Success!\n";
 		else
 			cout << "Fail!\n";
-			return 0;
+		return 0;
 	}
 
 	catch (exception& e) {
