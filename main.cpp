@@ -6,7 +6,7 @@
 int main() {
 	try {
 		bool c = false;
-		if (c)
+		if (!c)
 			cout << "Success!\n";
 		else
 			cout << "Fail!\n";
