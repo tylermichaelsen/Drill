@@ -7,7 +7,7 @@ int main() {
 	try {
 		int x = 2000;
 		char c = x; 
-		if (c == 2000)
+		if (c != 2000)
 			cout << "Success!\n";
 		return 0;
 	}
