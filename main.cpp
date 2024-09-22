@@ -5,7 +5,7 @@
 
 int main() {
 	try {
-		if (cond)
+		if (true)
 			cout << "Success!\n";
 		else
 			cout << "Fail!\n";
