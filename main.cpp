@@ -5,6 +5,7 @@
 
 int main() {
 	try {
+		cout << "Success!\n";
 		return 0;
 	}
 
