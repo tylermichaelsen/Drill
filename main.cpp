@@ -5,9 +5,9 @@
 
 int main() {
 	try {
-		string s = "fool";
-		if (s == "fool")
-			cout << "Success!\n";
+		string s = "ape";
+		if (s + "fool")
+			cout < "Success!\n";
 		return 0;
 	}
 
