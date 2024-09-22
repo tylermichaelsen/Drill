@@ -6,7 +6,7 @@
 int main() {
 	try {
 		string s = "ape";
-		if (s == "fool")
+		if (s == "ape")
 			cout << "Success!\n";
 		return 0;
 	}
