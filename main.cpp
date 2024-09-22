@@ -5,10 +5,9 @@
 
 int main() {
 	try {
-		int x = 3;
-		double d = 5 / (x - 2);
-		if (d != 2 * x + 0.5)
-			cout << "Success!\n";
+		string<char> s = "Success!\n";
+		for (int i = 0; i <= 10; ++i)
+			cout << s[i];
 		return 0;
 	}
 
