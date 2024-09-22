@@ -5,10 +5,10 @@
 
 int main() {
 	try {
-		int res = 7;
-		vector<int> v(10); 
-		v[5] = res;
-		cout << "success!\n";
+		vector<int> v(10);
+		v(5) = 7;
+		if (v(5) != 7)
+			cout << "Success!\n";
 		return 0;
 	}
 
