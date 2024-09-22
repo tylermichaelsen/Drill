@@ -5,10 +5,10 @@
 
 int main() {
 	try {
-		if (true)
+		int x = 2000;
+		char c = x; 
+		if (c == 2000)
 			cout << "Success!\n";
-		else 
-			cout << "Fail!\n";
 		return 0;
 	}
 
