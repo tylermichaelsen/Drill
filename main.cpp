@@ -6,7 +6,7 @@
 int main() {
 	try {
 		vector<char> v(5);
-		for (int i = 0; i <= v.size(); ++i);
+		for (int i = 0; i <= v.size(); ++i)
 			cout << "Success!\n";
 		return 0;
 	}
