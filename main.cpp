@@ -5,8 +5,8 @@
 
 int main() {
 	try {
-		string s = "ape";
-		if (s != "fool")
+		vector<char> v(5);
+		for (int i = 0; 0 < v.size(); ++i)
 			cout << "Success!\n";
 		return 0;
 	}
