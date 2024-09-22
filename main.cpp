@@ -6,7 +6,7 @@
 int main() {
 	try {
 		string s = "Success!\n";
-		for (int i = 0; i < 6; ++i)
+		for (int i = 0; i < s.size(); ++i)
 			cout << s[i];
 		return 0;
 	}
