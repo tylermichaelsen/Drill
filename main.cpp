@@ -5,11 +5,10 @@
 
 int main() {
 	try {
-		bool c = false;
-		if (!c)
+		string s = "ape";
+		boo c = "fool" < s; 
+		if (c)
 			cout << "Success!\n";
-		else
-			cout << "Fail!\n";
 		return 0;
 	}
 
