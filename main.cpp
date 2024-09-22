@@ -5,7 +5,9 @@
 
 int main() {
 	try {
-		cout << "Success" << "!\n";
+		string res = 7;
+		vector<int> v(10); v[5] = res;
+		cout << "success!\n";
 		return 0;
 	}
 
