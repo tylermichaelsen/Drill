@@ -5,7 +5,7 @@
 
 int main() {
 	try {
-		vector v(5);
+		vector<int> v(5);
 		for (int i = 0; i <= v.size(); ++i); 
 		cout << "Success!\n";
 		return 0;
