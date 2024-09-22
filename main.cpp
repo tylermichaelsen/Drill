@@ -5,12 +5,9 @@
 
 int main() {
 	try {
-		int i = 0;
-		int j = i;
-		while (i < 10)
-			++i;
-		if (j < i)
-			cout << "Success!\n";
+		string s = "Success!\n";
+		for (int i = 0; i < 10; ++i)
+			cout << s[i];
 		return 0;
 	}
 
